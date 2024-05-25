@@ -61,7 +61,7 @@ test('ValidarRegistroUnico', async ({ page }) => {
 test('actualizar perfil test', async ({ page }) => {
 	await page.goto('https://buggy.justtestit.org/register');
 	await page.getByPlaceholder('Login').click();
-	await page.getByPlaceholder('Login').fill('testuser780');
+	await page.getByPlaceholder('Login').fill('testuser777');
 	await page.getByRole('navigation').locator('input[name="password"]').click();
 	await page
 		.getByRole('navigation')
